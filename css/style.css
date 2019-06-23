@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Utility */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #59c6d1;
+}
+
+.btn {
+  color: #fff;
+  background: #3b4f51;
+}
+
+.btn:hover {
+  background: #59c6d1;
+}
+
+.l-heading {
+  font-size: 3rem;
+}
+
+.m-heading {
+  font-size: 2.5rem;
+}
+
+.bg-dark {
+  background: #3b4f51;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #3b4f51;
+}
+
+.bg-primary {
+}
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3b4f51;
+  padding: 1.5rem;
+}
+
+#navbar .logo {
+  display: block;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0.75rem;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+  border-radius: 5px;
+}
+
+#navbar h1 {
+  color: #fff;
+}
+
+/* Showcase */
+#showcase {
+  display: flex;
+  background: url("../img/showcase-2.png") no-repeat center/cover;
+  height: 70vh;
+  background-size: no-repeat;
+  text-align: center;
+}
+
+#showcase .showcase-items {
+  display: flex;
+  margin-top: 5rem;
+  flex-direction: column;
+  color: #fff;
+}
+
+#showcase .showcase-items h1 {
+  margin-bottom: 2rem;
+}
+
+#showcase .showcase-items p {
+  font-size: 1.25rem;
+}
+
+#showcase .showcase-items .showcase-button {
+  margin-top: 5rem;
+}
+
+#showcase .showcase-items a {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* O nama */
+#o-nama {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#o-nama .o-nama-slike {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+#o-nama .o-nama-slike img {
+  flex: 1;
+  width: 20%;
+}
+
+/* Kontakt */
+#kontakt {
+  margin-top: 1.5rem;
+  background: #3b4f51;
+  text-align: center;
+}
+
+#kontakt h2 {
+  padding: 1rem;
+}
+
+#kontakt .kontakt-items {
+  display: flex;
+}
+
+#kontakt .kontakt-items .box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  height: 30vh;
+}
+#kontakt .kontakt-items .box i {
+  padding: 1rem;
+}
+
+/* Lokacija */
+#lokacije {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lokacije .lokacija {
+  width: 100%;
+  flex: 33%;
+  padding: 2rem;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 2rem;
+}
