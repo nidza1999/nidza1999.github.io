@@ -20,12 +20,13 @@ a {
 }
 
 .text-primary {
-  color: #59c6d1;
+  color: #59c6d1 !important;
 }
 
 .btn {
   color: #fff;
   background: #3b4f51;
+  transition: background 0.5s;
 }
 
 .btn:hover {
